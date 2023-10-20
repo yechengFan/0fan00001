@@ -1,0 +1,3 @@
+Möglichkeiten:
+	Kanäle für alle Sender Empfänger Paare
+	Alle Sender an alle Empfänger über einen Kanal binden
