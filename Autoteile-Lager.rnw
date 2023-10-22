@@ -1,0 +1,37 @@
+11 
+    de.renew.gui.CPNDrawing 15 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 1 "FigureWithID" "Int" 1 113 272 20 20 NULL  
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 2 2 133 282 200 282 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.figures.ChopEllipseConnector REF 1  
+            CH.ifa.draw.standard.ChopBoxConnector 
+                de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 3 200 275 24 16 NULL    REF 6 
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 4 2 224 283 277 284 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.standard.ChopBoxConnector REF 6  
+            CH.ifa.draw.figures.ChopEllipseConnector 
+                de.renew.gui.PlaceFigure "attributes" "attributes" 1 "FigureWithID" "Int" 5 276 274 20 20 NULL    REF 11 
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 6 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 15 50 "K: new Karosserie; K: new Karosserie; K: new Karosserie;\nF: new Fahrgestell; F: new Fahrgestell; F: new Fahrgestell;\nR: new Reifen; R: new Reifen; R: new Reifen;\nR: new Reifen; R: new Reifen; R: new Reifen;\nR: new Reifen; R: new Reifen; R: new Reifen;\nR: new Reifen; R: new Reifen; R: new Reifen;\nL: new Lenkrad; L: new Lenkrad; L: new Lenkrad;\nA: new Amaturenbrett; A: new Amaturenbrett; A: new Amaturenbrett;\nS: new Sitze; S: new Sitze; S: new Sitze;\nS: new Sitze; S: new Sitze; S: new Sitze;\nS: new Sitze; S: new Sitze; S: new Sitze;\nS: new Sitze; S: new Sitze; S: new Sitze;\na: new Airbag; a: new Airbag; a: new Airbag;" "SansSerif" 0 12 0 REF 6 
+            CH.ifa.draw.standard.OffsetLocator 18 -136 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  
+        CH.ifa.draw.figures.TextFigure "attributes" "attributes" 4 "FrameColor" "Color" 255 199 158 255 "FigureWithID" "Int" 7 "TextAlignment" "Int" 0 "FillColor" "Color" 255 199 158 255 58 276 "extern" "SansSerif" 0 12 0 NULL NULL  
+        CH.ifa.draw.figures.TextFigure "attributes" "attributes" 4 "FrameColor" "Color" 255 199 158 255 "FigureWithID" "Int" 8 "TextAlignment" "Int" 0 "FillColor" "Color" 255 199 158 255 311 274 "Autoteile-Lager" "SansSerif" 0 12 0 NULL NULL  
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 9 2 286 294 286 334 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.figures.ChopEllipseConnector REF 11  
+            CH.ifa.draw.standard.ChopBoxConnector 
+                de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 10 275 334 24 16 NULL    REF 21 
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 11 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 294 308 ":KarosserieHolen(K); :FahrgestellHolen(F);\n:ReifenHolen(R,R,R,R); :LenkradHolen(L);\n:AmaturenbrettHolen(A); :SitzeHolen(S,S,S,S);\n:AirbagHolen(a);\n" "SansSerif" 0 12 0 REF 21 
+            CH.ifa.draw.standard.OffsetLocator 149 3 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 12 111 343 24 16 NULL  
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 13 2 123 343 123 292 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.standard.ChopBoxConnector REF 25  
+            CH.ifa.draw.figures.ChopEllipseConnector REF 1   
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 14 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 58 366 ":TeileNachbestellen()" "SansSerif" 0 12 0 REF 25 
+            CH.ifa.draw.standard.OffsetLocator 1 22 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 15 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 118 275 "[]" "SansSerif" 0 12 0 REF 1 
+            CH.ifa.draw.standard.OffsetLocator 0 0 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  NULL  
