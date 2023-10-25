@@ -1,0 +1,3 @@
+11 
+    de.renew.gui.CPNDrawing 1 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 3 "FrameColor" "Color" 0 0 0 255 "FigureWithID" "Int" 188 "FillColor" "Color" 112 219 147 255 0 0 20 20 NULL  NULL  
