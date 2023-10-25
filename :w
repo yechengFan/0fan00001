@@ -1,0 +1,30 @@
+<Topic>: <An awesome title as sentence.> (<ISSUE-ID>)
+Mein Upload Nummer 1
+<Short summary as single sentence.>
+
+<Long summary (if necessary) as sentences.>
+
+Signed-off-by: 
+Signed-off-by: 
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch 2nayci
+# Your branch is up to date with 'origin/2nayci'.
+#
+# Changes to be committed:
+#	new file:   .DS_Store
+#	new file:   DrawingAufgabe1.aut
+#	new file:   DrawingAufgabe1.bak
+#	new file:   DrawingAufgabe1.rnw
+#	new file:   Screenshot 2023-10-19 at 14.28.39.png
+#	new file:   Screenshot 2023-10-19 at 14.28.44.png
+#	new file:   empfaenger.bak
+#	new file:   empfaenger.rnw
+#	new file:   lager.aut
+#	new file:   lager.bak
+#	new file:   lager.rnw
+#	new file:   sender.bak
+#	new file:   sender.rnw
+#
