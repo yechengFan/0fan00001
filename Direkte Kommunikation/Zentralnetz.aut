@@ -1,0 +1,4 @@
+11 
+    de.renew.gui.CPNDrawing 2 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 1 "FigureWithID" "Int" 1 439 248 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 2 441 135 24 16 NULL  NULL  0 0 675 478 

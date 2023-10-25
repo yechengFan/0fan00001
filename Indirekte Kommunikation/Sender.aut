@@ -1,0 +1,7 @@
+11 
+    de.renew.gui.CPNDrawing 5 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 3 "FigureWithID" "Int" 430 "FrameColor" "Color" 0 0 0 255 "FillColor" "Color" 112 219 147 255 305 219 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 3 "FigureWithID" "Int" 431 "FrameColor" "Color" 0 0 0 255 "FillColor" "Color" 112 219 147 255 218 162 24 16 NULL  
+        de.renew.gui.PlaceFigure "attributes" "attributes" 3 "FigureWithID" "Int" 433 "FrameColor" "Color" 0 0 0 255 "FillColor" "Color" 112 219 147 255 135 220 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 3 "FigureWithID" "Int" 436 "FrameColor" "Color" 0 0 0 255 "FillColor" "Color" 112 219 147 255 219 272 24 16 NULL  
+        CH.ifa.draw.figures.TextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 0 "FigureWithID" "Int" 438 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 158 337 "Nachrichten-Sender-Kreislauf" "SansSerif" 0 12 0 NULL NULL  NULL  0 0 535 563 
